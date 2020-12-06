@@ -1,0 +1,57 @@
+01173812047 484866
+18390843842
+
+Connor0622@csu.edu.cn
+223039
+
+
+$ git config --global user.name "TSorzZZ"
+$ git config --global email "373685440@qq.com"
+$ git clone https://github.com/TSorzZZ/pytorch-yunjey.git
+$ git status					//查看当前文件夹git 状态
+$ git add 文件名					
+$ git commit -m "注释"
+$ git push origin master
+
+
+Traceback (most recent call last):
+  File "average_result.py", line 31, in <module>
+    metrics= np.loadtxt(filelist[i] + "/result.txt", dtype=float)
+  File "/root/userfolder/anaconda3/envs/py3.6-torch1.1-cuda9.0/lib/python3.6/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/root/userfolder/anaconda3/envs/py3.6-torch1.1-cuda9.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 195, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/root/userfolder/anaconda3/envs/py3.6-torch1.1-cuda9.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 535, in open
+    raise IOError("%s not found." % path)
+OSError: exp/MESSIDOR/multi_CAN_lamda25_noshare_wpre_simpleaug_10fold1_1000/result.txt not found.
+
+
+
+
+
+
+
+公共学位课(7)：
+课程				学分		考核方式
+学术交流英语1			2
+自然辩证法概论 			1
+中国特色社会主义理论与实践研究	2
+工程伦理				2
+
+学科基础课(8):
+数据科学与工程			2		论文
+机器学习与数据挖掘			2
+应用统计				3
+论文写作与学术道德（计算机院）	2
+
+专业课(6)：
+数字图像处理与应用			2		
+云计算与大数据处理			2		期末论文
+高级分布式系统（不确定）		2		实验报告,调研报告,笔试闭卷
+现代密码学原理与应用(备选好过)		2
+
+选修(4):
+高性能计算(好过)			2
+还有一个不确定:
+操作系统(好过)			2
+自然语言处理(新课)			2		笔试开卷,文献综述,设计作品,课程论文
